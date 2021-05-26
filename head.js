@@ -8,8 +8,6 @@ const assertEqual = function(actual, expected) {
 
 let head = function(array) {
   return array.shift(0)
-  //for (i = 0; i < array.length; i++) {
-  //}
 };
 
 assertEqual(head([5,6,7]), 5);
