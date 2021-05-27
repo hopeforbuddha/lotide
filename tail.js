@@ -12,14 +12,20 @@ let tail = function(array) {
   
   
   
-  //console.log('vars ~~~', vars)
+ // console.log('vars ~~~', vars)
   //console.log('array ~~~', array)
   return vars;
 };
 
+const expectedAnswer = ["Lighthouse", "Labs"]
 let arr = ["Hello", "Lighthouse", "Labs"]
 const result = tail(arr);
+/*assertEqual(result, ["Lighthouse", "Labs"]);
 assertEqual(result[0], "Lighthouse");
 assertEqual(result[1], "Labs");
 assertEqual(arr.length, 3)
-assertEqual(result.length, 2)
+assertEqual(result.length, 2)*/
+
+for (let i = 0; i < result.length; i++) {
+   assertEqual(result[i], expectedAnswer[i])
+}

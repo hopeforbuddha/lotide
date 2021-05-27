@@ -15,7 +15,6 @@ let eqArrays = function(array1, array2) {
       } 
     } 
     return true
-    //console.log(array1[i], array2[i])
   } else {
     return false
   }
