@@ -8,6 +8,6 @@ let assertArrayEqual = function(arr1, arr2) {
   } else if (toEqual === false) {
     console.log(`🛑🛑🛑Assertion Failed: ${arr1} !== ${arr2}`)
     } 
-  }
+  };
 
 module.exports = assertArrayEqual;

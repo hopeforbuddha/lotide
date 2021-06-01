@@ -7,6 +7,11 @@ const findkey = require("./findkey")
 const map = require("./map")
 const takeUntil = require("./takeUntil")
 const without = require("./without")
+const letterPositions = require("./letterPositions")
+const findKeyByValue = require("./findKeyByValue")
+const eqObjects = require("./eqObjects")
+const assertArrayEqual = require("./assertArrayEqual")
+//const assertObjectsEqual = require("./assertObjectsEqual")
 
 module.exports = {
   head,
@@ -17,5 +22,9 @@ module.exports = {
   findkey,
   map,
   takeUntil,
-  without
+  without,
+  letterPositions,
+  findKeyByValue,
+  eqObjects,
+  assertArrayEqual
 };
