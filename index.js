@@ -11,7 +11,7 @@ const letterPositions = require("./letterPositions")
 const findKeyByValue = require("./findKeyByValue")
 const eqObjects = require("./eqObjects")
 const assertArrayEqual = require("./assertArrayEqual")
-//const assertObjectsEqual = require("./assertObjectsEqual")
+const assertObjectsEqual = require("./assertObjectsEqual")
 
 module.exports = {
   head,
@@ -26,5 +26,6 @@ module.exports = {
   letterPositions,
   findKeyByValue,
   eqObjects,
+  assertArrayEqual,
   assertArrayEqual
 };
