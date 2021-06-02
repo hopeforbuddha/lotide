@@ -1,5 +1,5 @@
 {
-  "@hopeforbuddha/lotide": "lotide",
+  "name": "@hopeforbuddha/lotide",
   "version": "1.0.0",
   "description": "lotide function library created during the Lighthouse Labs bootcamp",
   "main": "assertArrayEqual.js",
