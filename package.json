@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "@hopeforbuddha/lotide": "lotide",
   "version": "1.0.0",
-  "description": "function library",
+  "description": "lotide function library created during the Lighthouse Labs bootcamp",
   "main": "assertArrayEqual.js",
   "directories": {
     "test": "test"
